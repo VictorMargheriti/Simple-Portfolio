@@ -10,6 +10,7 @@ ul{
 }
 a{
  text-decoration:none;
+ color: inherit;
 }
 section{
  width:100%;
@@ -109,6 +110,11 @@ nav ul li a{
  color:#fff; 
  border:none;
 }
+
+button:hover {
+    cursor: pointer;
+}
+
 button:active{
  transform:scale(1.1);
 }
