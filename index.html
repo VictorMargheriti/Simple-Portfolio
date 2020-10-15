@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <!--using FontAwesome-->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 
 </head>
@@ -43,7 +42,7 @@
         <div class="about-text">
             <p>About Me</p>
             <p>Web Developer</p>
-            <p><strong>Hello,My name is Chikkin & I am a Web Developer.</strong> If you have any project that you need
+            <p><strong>Hello,My name is Victor & I am a Web Developer.</strong> If you have any project that you need
                 done or even if it's just an idea, finding the right person is always hard.
                 <br><br>
                 I make this an easy decision for you by working with you to turn idea into concept,
@@ -55,7 +54,7 @@
             <button><a href="mailto:vmargheriti@hotmail.com?subject=We would like to give you a Career opportunity!">Hire Me</a></button>
             <button><a href="https://drive.google.com/uc?export=download&id=1MjSx02JC149tX6YFb1nLEmemerR7AGaS" download>Download CV</a></button>
         </div>
-    </div>
+    </div>    
     <!--services-container---------------------------->
     <div class="services ">
         <!--text-->
@@ -71,7 +70,19 @@
                 <p class="heading">Web Design</p>
                 <p class="details">If you want a captivating and responsive website, I can design and develop this with you. You can have x revisions
                     and contact me anytime within business hours.</p>
-                <button>Read More</button>
+                <button id="myBtn">Read More</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Modal Header</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora obcaecati rem laborum ipsum sequi amet ducimus quibusdam, fugiat quia officiis.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!--2------------->
             <div class="box-2">
@@ -122,4 +133,12 @@
 
 </body>
 
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
