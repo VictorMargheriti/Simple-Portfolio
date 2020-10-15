@@ -109,12 +109,29 @@ nav ul li a{
  border:2px solid #373636;
  color:#373636;
  background-color:transparent;
- 
 }
+
+.hire-btn:hover {
+  border: 2px solid tomato;
+  color: tomato;
+}
+
 .down-cv{
  background-color:#0B0B0B;
  color:#fff; 
  border:none;
+}
+
+.down-cv:hover {
+  background-color: tomato;
+}
+
+.about-btn:hover {
+  background-color: tomato;
+}
+
+.contact-btn:hover {
+  background-color: tomato;
 }
 
 button:hover {
@@ -423,8 +440,12 @@ footer{
 }
 
 /* The Close Button */
-.close {
-  color: black;
+
+.box-1 .close,
+.box-2 .close,
+.box-3 .close {
+  background-color: black;
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -432,7 +453,7 @@ footer{
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: tomato;
   text-decoration: none;
   cursor: pointer;
 }
